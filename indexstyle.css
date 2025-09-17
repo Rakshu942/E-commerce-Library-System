@@ -1,0 +1,249 @@
+body {
+    font-family: initial;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header { 
+   height: 600px;
+   border: 3px;
+   background-image: url('abc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo-placeholder {
+    position: relative;
+    right: -610px;
+    width: 120px;
+    height: 120px;
+    /*background-color: #EAEAEA;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-weight: bold;
+    border-radius: 100px;
+    bottom: 50px;
+    background-image: url(lgg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px grey;
+}
+
+.header h1 {
+    position: relative;
+    right: 5px;
+    color: dark white;
+    margin-bottom: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header p {
+    position: relative;
+    width: 1000px;
+    left: 180px;
+    bottom: 70px;
+    
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 1.5em;
+    margin-bottom: 80px;
+    font-weight: bold;
+
+}
+
+.header h3 {
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.button {
+    padding: 12px 30px; /* Increased padding for better button size */
+    font-size: 1.1rem; /* Increased font size for readability */
+    font-weight: bold;
+    color: #0c0000;
+    background-color: #fefafa;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(16, 1, 1, 0.899);
+}
+.button:hover {
+    transform: scale(1.1);
+    background-color: grey;
+
+}
+.divider {
+    width: 2px; /* Thin vertical line */
+    height: 60px; /* Height of the divider */
+    border-radius: 40px;
+    background-color: #f5f2f2; /* Color of the divider */
+}
+
+.about-us-section {
+    background-color:  #51c796d3;
+    width: 1326px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-us-header {
+    position: relative;
+    bottom: 15px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color:   #95d3b9d3;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+.footer {
+    font-family: initial;
+    background-color: #357a6e;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.footer p {
+    color: white;
+    text-decoration: none;
+    margin: 6px;
+
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer p:hover {
+    transform: scale(1.1);
+}
+button {
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 1;
+    font-family: initial;
+    font-weight: bold;
+}
+
+.dialog {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 2;
+    border-radius: 8px;
+}
+
+.dialog-content {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h2 {
+    text-align: center;
+    font-family: initial;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+.faq-item p {
+    font-family: initial;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    color: black;
+}
